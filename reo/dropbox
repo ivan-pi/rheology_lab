@@ -1,0 +1,318 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="wf-opensans-n4-active wf-opensans-n6-active wf-active" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2013 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/
+-->
+
+<!-- base href="http://www.fkkt.uni-lj.si/" -->
+
+<title>FKKT: Oglasna deska</title>
+<meta name="generator" content="TYPO3 4.5 CMS">
+
+<link rel="stylesheet" type="text/css" href="dropbox_files/stylesheet_7a418643a9.css" media="all">
+
+
+
+
+
+
+<link rel="icon" type="image/png" href="http://www.fkkt.uni-lj.si/fileadmin/templates/fav.png">
+    
+    <!-- CSS -->
+    <link href="dropbox_files/reset.css" rel="stylesheet" type="text/css">
+    <link href="dropbox_files/page.css" rel="stylesheet" type="text/css">
+    <link href="dropbox_files/nivo-slider.css" rel="stylesheet" type="text/css">
+    
+    <!-- Javascript -->
+    <script src="dropbox_files/ga.js" async="" type="text/javascript"></script><script async="" type="text/javascript" src="dropbox_files/webfont.js"></script><script src="dropbox_files/jquery.js" type="text/javascript"></script>
+    <script src="dropbox_files/easing.js" type="text/javascript"></script>
+    <script src="dropbox_files/totop.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+            var defaults = {
+            containerID: 'moccaUItoTop', // fading element id
+            containerHoverClass: 'moccaUIhover', // fading element hover class
+            scrollSpeed: 1200,
+            easingType: 'linear' 
+            };
+            */
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+	</script>
+	
+<link rel="stylesheet" type="text/css" href="dropbox_files/style.css">
+<script type="text/javascript" src="dropbox_files/plugin.js"></script>
+
+
+<script type="text/javascript">
+// <![CDATA[
+cc.initialise({
+	cookies: {
+		analytics: {},
+		necessary: {}
+
+	},
+	settings: {
+		bannerPosition: "bottom",
+		style: "light",
+		refreshOnConsent: false,
+		consenttype:"implicit",
+		onlyshowbanneronce: false,
+		disableallsites: true,
+		hideprivacysettingstab:false,
+		tagPosition: "bottom-left"
+	},
+	strings: {
+		jqueryWarning: "Developer: Caution! In order to use Cookie Consent, you need to use jQuery 1.4.4 or higher.",
+		noJsBlocksWarning: "Developer: Warning! It doesn't look like you have set up Cookie Consent correctly.  You must follow all steps of the setup guide at http://silktide.com/cookieconsent/code.  If you believe you are seeing this message in error, you can use the overridewarnings setting (see docs for more information).",
+		noKeyWarning: "Developer: Warning! You have set the plugin to only show within the EU, but you have not provided an API key for the IP Info DB.  Check the documentation at http://silktide.com/cookieconsent for more information",
+		invalidKeyWarning: "Developer: Warning! You must provide a valid API key for IP Info DB.  Check the documentation at http://silktide.com/cookieconsent for more information",
+		necessaryDefaultTitle: "Nujno potrebni",
+		socialDefaultTitle: "Družbena omrežja",
+		analyticsDefaultTitle: "Analitika",
+		advertisingDefaultTitle: "Oglaševanje",
+		defaultTitle: "Privzeto ime piškotka",
+		necessaryDefaultDescription: "Nekateri piškotki na tej strani so nujni in jih ne moremo onemogočiti.",
+		socialDefaultDescription: "Facebook, Twitter in druga družbena omrežja .",
+		analyticsDefaultDescription: "Anonimno spremljamo vašo uporabo spletne strani, saj želimo izboljšati vašo uporabniško izkušnjo.",
+		advertisingDefaultDescription: "Piškotki oglaševalskih partnerjev analizirajo vaše vedenje na spletnih straneh in vam dostavljajo personalizirane oglase.",
+		defaultDescription: "Privzeti opis piškotka.",
+		notificationTitle: "Če omogočite piškotke, bo spletna stran delovala bolje.",
+		notificationTitleImplicit: 'Za pravilno delovanje spletne strani in izboljšanje uporabniške izkušnje uporabljamo piškotke. <a href="/index.php?id=29">Podrobnosti</a>',
+		poweredBy: "Cookie Consent plugin for the EU cookie law",
+		privacyPolicy: "Privacy policy",
+		learnMore: "Več",
+		seeDetails: "podrobnosti",
+		seeDetailsImplicit: "spremeni nastavitve",
+		hideDetails: "skrij podrobnosti",
+		savePreference: 'Shrani nastavitve',
+		saveForAllSites: 'Shrani za vse strani',
+		allowCookies: 'Dovoli piškotke',
+		allowCookiesImplicit: 'Strinjam se',
+		allowForAllSites: 'Dovoli za vse spletne strani',
+		customCookie: 'Spletna stran uporablja posebne vrste piškotkov, za katere je potrebna posebna privolitev.',
+		privacySettings: "Zasebnost",
+		privacySettingsDialogTitleA: "Nastavitve zasebnosti",
+		privacySettingsDialogTitleB: "za to spletno stran",
+		privacySettingsDialogSubtitle: "Nekatere funkcionalnosti te spletne strani potrebujejo vašo privolitev, da si vas zapomnijo.",
+		closeWindow: "Zapri okno",
+		changeForAllSitesLink: "Spremeni nastavitve za vse spletne strani",
+		preferenceUseGlobal: 'Uporabi globalne nastavitve',
+		preferenceConsent: "Dovolim",
+		preferenceDecline: "Ne dovolim",
+		preferenceAsk: 'Vedno me vprašaj',
+		preferenceAlways: "Vedno dovoli",
+		preferenceNever: "Nikoli ne dovoli",
+		notUsingCookies: "Ta spletna stran ne uporablja piškotkov.",
+		clearedCookies: "Your cookies have been cleared, you will need to reload this page for the settings to have effect.",
+		allSitesSettingsDialogTitleA: "Nastavitve zasebnosti",
+		allSitesSettingsDialogTitleB: "za vse spletne strani",
+		allSitesSettingsDialogSubtitle: "You may consent to these cookies for all websites that use this plugin.",
+		backToSiteSettings: "Nastavitve za to spletno stran"
+	}	
+});
+// ]]>
+</script>
+<!-- End Cookie Consent plugin -->	
+	
+<link rel="alternate" type="application/rss+xml" title="RSS-Feed" href="http://www.fkkt.uni-lj.si/index.php?id=1&amp;type=100"><script type="text/javascript">
+<!--
+function letter_at1() {
+document.write('(');
+}
+function letter_at2() {
+document.write('a');
+}
+function letter_at3() {
+document.write('t');
+}
+function letter_at4() {
+document.write(')');
+}
+function letter_dot() {
+document.write('.');
+}// -->
+</script><link media="all" href="dropbox_files/css.css" rel="stylesheet">
+</head>
+<body><div style="display: block;" id="cc-tag" class="cc-tag-bottom-left cc-light"><a class="cc-link" href="#" id="cc-tag-button" title="Zasebnost"><span>Zasebnost</span></a></div>
+
+    <div id="wrapper">
+        <!-- Glava -->
+        <div id="head">
+            <!-- Logotip in link -->
+            <div id="logo-area"> <a href="http://www.uni-lj.si/" class="square" target="_blank">Univerza v Ljubljani</a> <a href="http://www.fkkt.uni-lj.si/" class="logo-si" id="logo-si">Fakulteta za Kemijo in kemijsko tehnologijo</a> </div>
+            <div class="brd"></div>
+            <!-- Iskalnik -->
+            
+
+
+	<!--
+
+		BEGIN: Content of extension "macina_searchbox", plugin "tx_macinasearchbox_pi1"
+
+	-->
+	<div class="tx-macinasearchbox-pi1">
+		
+                <form action="sl/posebne-strani/iskanje/" method="post" name="searchform" id="search_form">
+<div id="searchbar" class="noslide">
+	<div class="srcform">
+                <table width="168">
+                <tbody><tr>
+ 		<td height="19" width="21"><input name="tx_indexedsearch[submit_button]" value=" " class="inputbtn" type="submit"></td>
+ 		<td height="19" width="147"><input name="tx_indexedsearch[sword]" class="input" type="text">        
+ 	<input name="tx_indexedsearch[_sections]" value="0" type="hidden">
+        <input name="tx_indexedsearch[pointer]" value="0" type="hidden">
+        <input name="tx_indexedsearch[ext]" value="0" type="hidden">
+        <input name="tx_indexedsearch[lang]" value="0" type="hidden">
+   		</td>
+	       </tr>
+                </tbody></table>
+         </div>	
+</div>
+</form>
+
+	</div>
+	
+	<!-- END: Content of extension "macina_searchbox", plugin "tx_macinasearchbox_pi1" -->
+
+	
+
+            <!-- Glavni del glave - meniji in ostale neumnosti -->
+            <div id="main-head">
+                <!-- Glavni meni v glavi -->
+                <div class="bleed"></div>
+                <div class="squareone">
+                <div id="title"><img src="dropbox_files/title.png" alt=""></div>
+
+                <div id="first-menu"><ul><li><a href="http://www.fkkt.uni-lj.si/sl/o-fakulteti/">O fakulteti</a></li><li><a href="http://www.fkkt.uni-lj.si/sl/oddelki-in-katedre/">Oddelki in katedre</a></li><li><a href="http://www.fkkt.uni-lj.si/sl/studij/">Študij</a></li><li><a href="http://www.fkkt.uni-lj.si/sl/raziskovalno-delo/">Raziskovalno delo</a></li><li><a href="http://www.fkkt.uni-lj.si/sl/mednarodna-dejavnost/">Mednarodna dejavnost</a></li><li><a href="http://www.fkkt.uni-lj.si/sl/raziskovalna-infrastruktura/">Raziskovalna infrastruktura</a></li><li><a href="http://www.fkkt.uni-lj.si/sl/storitve/">Storitve</a></li></ul></div>
+                </div>
+
+                <div class="squaretwo">
+                    <!-- Prvi stranski meni -->
+                    <div id="second-menu"><ul><li><a href="http://www.fkkt.uni-lj.si/sl/knjiznica-fkkt-in-fri/">Knjižnica FKKT</a></li><li><a href="http://www.fkkt.uni-lj.si/sl/posebne-strani/webmail/">Webmail</a></li><li><a href="http://www.fkkt.uni-lj.si/sl/posebne-strani/vstop-v-vis/">Vstop v VIS</a></li></ul></div>
+
+                    <div id="two-menus">
+                    <!-- Drugi stranski meni -->
+                    <div id="third-menu"><ul><li><a href="http://www.fkkt.uni-lj.si/sl/o-fakulteti/">Domov</a></li><li><a href="http://www.fkkt.uni-lj.si/sl/intranet/prijavaodjava/">Intranet</a></li></ul></div>
+                    <!-- Izbira jezika -->
+                    <div id="fourth-menu"><ul><li>&nbsp;</li></ul></div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+
+        <!-- Leva stran -->
+        <div id="left"><ul id="primary-menu"></ul><ul id="primary-menu"><li><a href="http://www.fkkt.uni-lj.si/sl/za-studente/za-studente/" class="menu-subitem-sel">Za študente</a><ul><li><a href="http://www.fkkt.uni-lj.si/sl/za-studente/za-studente/oglasna-deska/" class="menu-subitem-two-sel">Oglasna deska</a></li><li><a href="http://www.fkkt.uni-lj.si/sl/za-studente/za-studente/obvestila-studentskega-referata/" class="menu-subitem-two">Obvestila študentskega referata</a></li><li><a href="http://www.fkkt.uni-lj.si/sl/studij/" class="menu-subitem-two">Študijski programi</a></li><li><a href="http://www.fkkt.uni-lj.si/sl/za-studente/za-studente/urniki/" class="menu-subitem-two">Urniki</a></li><li><a href="http://www.fkkt.uni-lj.si/sl/za-studente/za-studente/spletna-ucilnica/" class="menu-subitem-two">Spletna učilnica</a></li><li><a href="http://www.fkkt.uni-lj.si/sl/za-studente/za-studente/pravilniki-in-navodila/" class="menu-subitem-two">Pravilniki in navodila</a></li><li><a href="http://www.fkkt.uni-lj.si/sl/mednarodna-dejavnost/" class="menu-subitem-two">Izmenjave študentov</a></li></ul></li></ul>  <a href="http://www.fkkt.uni-lj.si/index.php?id=292"><img src="dropbox_files/office_calendar.png" alt="logotip"> </a></div>
+        
+        <!-- Desna stran - tipske strani -->
+        <div id="right" class="stran">
+            <div id="breadcrumb" class="breadcrumbs"><a href="http://www.fkkt.uni-lj.si/sl/o-fakulteti/" onfocus="blurLink(this);">Domov</a> /&nbsp;<a href="http://www.fkkt.uni-lj.si/sl/za-studente/za-studente/" onfocus="blurLink(this);">Za študente</a> /&nbsp;<a href="http://www.fkkt.uni-lj.si/sl/za-studente/za-studente/oglasna-deska/" onfocus="blurLink(this);">Oglasna deska</a></div>
+            <div id="slika">
+                <img src="dropbox_files/tmp.png" alt="slika">
+            </div>
+
+            <!-- Vsebina -->
+
+
+            <div id="vsebine">
+	<!--  CONTENT ELEMENT, uid:481/list [begin] -->
+		<div id="c481" class="csc-default">
+		<!--  Plugin inserted: [begin] -->
+			
+
+
+	<!--
+
+		BEGIN: Content of extension "iframe", plugin "tx_iframe_pi1"
+
+	-->
+	<div class="tx-iframe-pi1">
+		
+				<iframe name="tx_iframe" src="dropbox_files/OglasnaDeskaFKKT_ZaSamostojnoStran.html" marginheight="" marginwidth="" scrolling="auto" frameborder="0" height="1000" width="580">
+					Your browser does not support iframes... Please update it! 
+				</iframe>
+			
+	</div>
+	
+	<!-- END: Content of extension "iframe", plugin "tx_iframe_pi1" -->
+
+	
+		<!--  Plugin inserted: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:481/list [end] -->
+		</div>
+            <!-- Vsebina -->
+            <div id="avtor-clanka" class="avtor">Avtor strani:&nbsp;Admin, Web<br>Zadnja sprememba:&nbsp; 8. februar 2014</div>
+            <div class="ontop">
+             </div>
+
+        
+</div>
+        <div class="clear">    
+        </div>
+ 
+        <!-- Noga -->
+        <div class="foot-wrapper">
+        <div id="foot">
+            <div id="copyright"><a href="http://www.fkkt.uni-lj.si/index.php?id=302"><img src="dropbox_files/eurobachelor.png" alt="logotip" style="margin-left:5px;margin-top:0px;margin-bottom:10px;bgcolor:white;"></a> <br>© <span>2014 UL FKKT</span></div>
+
+            <div id="kolofon">
+                Univerza v Ljubljani, Fakulteta za <br>
+                kemijo in kemijsko tehnologijo
+                <br><br>
+
+                Večna pot 113<br>
+                1000 Ljubljana
+                <br><br>
+
+                Tel: (01) 479 8000<br>
+                Fax: (01) 2419 144<br>
+                E-naslov:  <script type="text/javascript"><!--
+var wpzkmiv = ['t','n','s','f','<','i','.','i',':','e','m','o','e','j','l','.','"','u','n','"','l','i','j','k',' ','a','f','"','f','c','k','h','k','o','l','>','/','i','>','l','f','s','m','"','s','.','a','o','-','k','u','i','@','r','<','l','n','f','a','a','=','i','i','a','@','=',' ','t','.','-','i','s','t','n'];var xvbicqr = [24,17,33,21,0,28,60,16,15,44,45,54,5,31,30,32,49,61,62,35,12,47,66,23,2,10,6,8,18,37,58,3,22,19,38,50,71,69,73,48,53,68,9,43,41,67,39,14,64,57,26,63,20,4,70,65,52,56,72,1,7,34,51,46,55,42,36,59,25,29,11,40,13,27];var nqmdlkd= new Array();for(var i=0;i<xvbicqr.length;i++){nqmdlkd[xvbicqr[i]] = wpzkmiv[i]; }for(var i=0;i<nqmdlkd.length;i++){document.write(nqmdlkd[i]);}
+// --></script><a href="mailto:info@fkkt.uni-lj.si" class="email">info@fkkt.uni-lj.si</a>
+<noscript>Please enable Javascript to see the email address</noscript>
+            </div>
+            <div class="foot-menu"> 
+            <a href="http://www.fkkt.uni-lj.si/sl/posebne-strani/pomembnejse-povezave/">Pomembnejše povezave</a><br> <br><a href="http://www.fkkt.uni-lj.si/sl/posebne-strani/univerza-v-ljubljani/">Univerza v Ljubljani</a><br> <br><a href="http://www.fkkt.uni-lj.si/sl/zaposleni/">Telefonski imenik</a><br> <br>
+            </div>
+
+            <div class="foot-menu"> 
+            <a href="http://www.fkkt.uni-lj.si/sl/posebne-strani/eduroam/">Eduroam</a><br> <br><a href="http://www.fkkt.uni-lj.si/sl/kontakt/">Kontakt</a><br> <br><a href="http://www.fkkt.uni-lj.si/sl/posebne-strani/zasebnost/">Zasebnost</a><br> <br>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Zaključek strani -->
+    <div class="finish"></div>
+<script type="text/plain" class="cc-onconsent-analytics">
+   // <![CDATA[
+   var _gaq = _gaq || [];
+   _gaq.push(['_setAccount', 'UA-45060522-1']);
+   _gaq.push(['_setAllowLinker', true]);
+   _gaq.push(['_trackPageview']);
+   (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+   })();
+   //    ]]>
+</script>
+
+
+
+
+
+<a style="display: none;" href="#" id="toTop"><span id="toTopHover"></span>To Top</a></body></html>
